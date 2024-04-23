@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let body=document.getElementByTagName("body");
+let body=document.getElementsByTagName("body");
 let p1=document.createElement("p");
 p1.setAttribute("id","counter");
 p1.textContent="0";
